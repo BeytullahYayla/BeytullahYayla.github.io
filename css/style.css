@@ -67,7 +67,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #000000;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 30px rgba(0,0,0,0.2)
 }
@@ -78,22 +78,24 @@ hr {
 	color: #1f386e;
 	text-transform: uppercase;
 	letter-spacing: -1px;
+	width: 250px;
+	height: 80px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #1f386e;
+	color: #fff;
 	font-size: 12px;
 	font-weight: 700;
-	padding: 8px 2px;
+	padding: 20px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #ce2a36;
+	color: #fff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ce2a36 !important;
+	color: #fff !important;
 	background-color: transparent;
 }
 #menu .phone {
