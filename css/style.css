@@ -170,8 +170,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
+	height: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/resized3.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -512,3 +513,9 @@ color: #777;
 	margin: 50px 0;
 }
 }
+@media screen and (max-width: 500px) and (max-height: 900px) {
+	.intro {
+	  background-image: url(../img/resized3.jpg);
+	  background-size: 100% 100%;
+	}
+  }
