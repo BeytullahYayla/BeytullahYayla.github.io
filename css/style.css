@@ -168,7 +168,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	height: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
