@@ -514,9 +514,3 @@ color: #777;
 	width: 100%;
 }
 }
-@media screen and (max-width: 500px) and (max-height: 900px) {
-	.intro {
-	  background-image: url(../img/intro-bg.jpg);
-	  background-size: 100% 100%;
-	}
-  }
